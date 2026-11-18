@@ -1,0 +1,19 @@
+Exercice 4
+
+b.
+L'IA décide parfois de ne pas switcher et de ne pas laisser passer certaines voitures 
+car elle prend en compte le temps de switch et donc sa file d'attente augmente beaucoup. 
+
+
+c.
+Pour traffic hour, elle était bien moins efficace. En effet, le nombre important de voitures bloquées 
+lui faisait perdre en efficacité car elle switchait trop peu et donc bloquait complètement un grand nombre de voitures.
+Ce n'est pas optimal ce qui est logique puisque le modèle n'a as été entrainé pour ces conditions.
+
+d.
+J'ai eu un résultat plutôt surprenant car l'ia a décidé de ne pas du tout switcher pendant une minute.
+Je pensais que au contraire elle switcherait plus réégulièrement pour éviter les grandes files.
+
+e.
+En augmentant la pénalité de switch, l'IA va switcher moins régulièrement, bien que je ne puisse pas vraiment le comparer 
+avec le résultat précédent puisque je n'en avais aucun.
